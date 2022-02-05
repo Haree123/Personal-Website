@@ -1,0 +1,45 @@
+* {
+  background-color: #0b182f;
+  box-sizing: border-box;
+  font-family: 'Circular', 'Mada', 'Roboto Slab', serif;
+  letter-spacing: 1.5px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-color: #495670;
+  scrollbar-width: thin;
+}
+
+a {
+  color: inherit;
+}
+
+@font-face {
+  font-family: 'Calibre';
+  src: url(../assets/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: 'Mada';
+  src: url(../assets/Mada-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url(../assets/CircularStd-Medium.otf);
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #495670;
+  border-radius: 10px;
+}
